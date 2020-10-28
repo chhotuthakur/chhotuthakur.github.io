@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <!-- head -->
 <head>
-<title>Match a Matrimonial Category Bootstrap Responsive Web Template | index :: w3layouts</title>
+<title>Match a Matrimonial Category Bootstrap Responsive Web Template | Privacy Policy :: w3layouts</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -19,7 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--theme-style-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
-<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+ <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
 <!--meta data-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
@@ -45,26 +45,16 @@ $(document).ready(function(){
         }
     );
 });
-</script>	
-<!-- //nav smooth scroll -->			
-<!-- Calendar -->
-	<link rel="stylesheet" href="css/jquery-ui.css" />
-	<script src="js/jquery-ui.js"></script>
-		<script>
-		  $(function() {
-			$( "#datepicker" ).datepicker();
-		 });
-		</script>
-<!-- //Calendar -->			
-<link rel="stylesheet" href="css/intlTelInput.css">
+</script>
+<!-- //nav smooth scroll -->
 </head>
 <!-- //head -->
 <!-- body -->
 <body>
-
 <!-- header -->
+
 <header>
-	<!--  Navigation Start -->
+<!-- Navigation Start -->
  <div class="navbar navbar-inverse-blue navbar">
     <!--<div class="navbar navbar-inverse-blue navbar-fixed-top">-->
       <div class="navbar-inner">
@@ -301,7 +291,7 @@ $(document).ready(function(){
 		   <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 		        <ul class="nav navbar-nav nav_1">
-		            <li class="active"><a href="index.html">Home</a></li>
+		            <li><a href="index.html">Home</a></li>
 		            <li><a href="about.html">About</a></li>
 		            <li><a href="search.html">Search</a></li>
 		            <li><a href="app.html" target="_blank">Mobile</a></li>
@@ -380,546 +370,258 @@ $(document).ready(function(){
         </div> <!-- end container -->
       </div> <!-- end navbar-inner -->
     </div> <!-- end navbar-inverse-blue -->
-<!-- ============================  Navigation End ============================ -->
+<!--  Navigation End -->
 </header>
 <!-- /header -->
 
-<div class="w3layouts-banner" id="home">
-<div class="container">
-	<div class="logo">
-		<h1><a class="cd-logo link link--takiri" href="index.html">Match <span><i class="fa fa-heart" aria-hidden="true"></i>Made in heaven.</span></a></h1>
-	</div>
-	<div class="clearfix"></div>
-	<div class="agileits-register">
-		<h3>Register NOW!</h3>
-		<form action="#" method="post">
-				<div class="w3_modal_body_grid">
-					<span>Profile For:</span>
-					<select id="w3_country" onchange="change_country(this.value)" class="frm-field required">
-						<option value="null">Select</option>
-						<option value="null">Myself</option>   
-						<option value="null">Son</option>   
-						<option value="null">Daughter</option>   
-						<option value="null">Brother</option>   
-						<option value="null">Sister</option>  
-						<option value="null">Relative</option>
-						<option value="null">Friend</option>						
-					</select>
-				</div>
-				<div class="w3_modal_body_grid w3_modal_body_grid1">
-					<span>Name:</span>
-					<input type="text" name="Name" placeholder=" " required=""/>
-				</div>
-				<div class="w3_modal_body_grid">
-					<span>Gender:</span>
-					<div class="w3_gender">
-						<div class="colr ert">
-							<label class="radio"><input type="radio" name="radio" checked=""><i></i>Male</label>
-						</div>
-						<div class="colr">
-							<label class="radio"><input type="radio" name="radio"><i></i>Female</label>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="w3_modal_body_grid w3_modal_body_grid1">
-					<span>Date Of Birth:</span>
-					<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/08/2013';}" required="" />
-				</div>
-				<div class="w3_modal_body_grid">
-					<span>religion:</span>
-					<select id="w3_country1" onchange="change_country(this.value)" class="frm-field required"> 
-						<option value="null">Select Religion</option>
-						<option value="null">Muslim</option>
-						<option value="null">Hindu</option>    
-						<option value="null">Christian</option>   
-						<option value="null">Sikh</option>   
-						<option value="null">Jain</option>   
-						<option value="null">Buddhist</option>
-						<option value="null">No Religious Belief</option>   						
-					</select>
-				</div>
-				<div class="w3_modal_body_grid w3_modal_body_grid1">
-				<span>Mobile No:</span>
-				<!-- country codes (ISO 3166) and Dial codes. -->
-					<input id="phone" type="tel">
-				  <!-- Load jQuery from CDN so can run demo immediately -->
-				  <script src="js/intlTelInput.js"></script>
-				  <script>
-					$("#phone").intlTelInput({
-					  // allowDropdown: false,
-					  // autoHideDialCode: false,
-					  // autoPlaceholder: "off",
-					  // dropdownContainer: "body",
-					  // excludeCountries: ["us"],
-					  // formatOnDisplay: false,
-					  // geoIpLookup: function(callback) {
-					  //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-					  //     var countryCode = (resp && resp.country) ? resp.country : "";
-					  //     callback(countryCode);
-					  //   });
-					  // },
-					  // initialCountry: "auto",
-					  // nationalMode: false,
-					  // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-					  // placeholderNumberType: "MOBILE",
-					  // preferredCountries: ['cn', 'jp'],
-					  // separateDialCode: true,
-					  utilsScript: "js/utils.js"
-					});
-				  </script>
-				</div>
-				<div class="w3_modal_body_grid">
-					<span>Email:</span>
-					<input type="email" name="Email" placeholder=" " required=""/>
-				</div>
-				<div class="w3_modal_body_grid w3_modal_body_grid1">
-					<span>Password:</span>
-					<input type="password" name="Password" placeholder=" " required=""/>
-				</div>
-				<div class="w3-agree">
-					<input type="checkbox" id="c1" name="cc">
-					<label class="agileits-agree">I have read & agree to the <a href="terms.html">Terms and Conditions</a></label>
-				</div>
-				<input type="submit" value="Register me" />
-				<div class="clearfix"></div>
-				<p class="w3ls-login">Already a member? <a href="#" data-toggle="modal" data-target="#myModal">Login</a></p>
-			</form>
+	<!-- inner banner -->	
+	<div class="w3layouts-inner-banner">
+		<div class="container">
+			<div class="logo">
+				<h1><a class="cd-logo link link--takiri" href="index.html">Match <span><i class="fa fa-heart" aria-hidden="true"></i>Made in heaven.</span></a></h1>
+			</div>
+			<div class="clearfix"></div>
 		</div>
-		<!-- Modal -->
-				<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-				  <div class="modal-dialog">
-					<!-- Modal content-->
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>		
-						<h4 class="modal-title">Login to Continue</h4>
-					  </div>
-					  <div class="modal-body">
-						<div class="login-w3ls">
-							<form id="signin" action="#" method="post">
-								<label>User Name </label>
-								<input type="text" name="User Name" placeholder="Username" required="">
-								<label>Password</label>
-								<input type="password" name="Password" placeholder="Password" required="">	
-								<div class="w3ls-loginr"> 
-									<input type="checkbox" id="brand" name="checkbox" value="">
-									<span> Remember me ?</span> 
-									<a href="#">Forgot password ?</a>
+	</div>
+	<!-- //inner banner -->
+	
+	<!-- breadcrumbs -->
+	<div class="w3layouts-breadcrumbs text-center">
+		<div class="container">
+			<span class="agile-breadcrumbs"><a href="index.html">Home</a> > <span>Privacy Policy</span></span>
+		</div>
+	</div>
+	<!-- //breadcrumbs -->
+	
+	<!-- Privacy-policy-section -->
+		<section class="privacy_policy_section">
+			<div class="privacy_policy">
+				<div class="container">
+					<h2 class="last-updated">Last updated on : 29-05-2017</h2>
+					<div class="panel-group" id="accordion">
+						<!-- First Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne">
+									 <span>&#8594;</span> What information do we collect?
+								 </h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
 								</div>
-								<div class="clearfix"> </div>
-								<input type="submit" name="submit" value="Login">
-								<div class="clearfix"> </div>
-								<div class="social-icons">
-									<ul>  
-										<li><a href="#"><span class="icons"><i class="fa fa-facebook" aria-hidden="true"></i></span><span class="text">Facebook</span></a></li> 
-										<li class="twt"><a href="#"><span class="icons"><i class="fa fa-twitter" aria-hidden="true"></i></span><span class="text">Twitter</span></a></li>  
-									</ul> 
-									<div class="clearfix"> </div>
-								</div>	
-							</form>
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-				<!-- //Modal -->
-	</div>
-</div>
-<!-- Find your soulmate -->
-	<div class="w3l_find-soulmate text-center">
-		<h3>Find Your Soulmate</h3>
-			<div class="container">
-				<a class="scroll" href="#home">
-					<div class="col-md-3 w3_soulgrid">
-						<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-						<h3>Sign Up</h3>
-						<p>Signup for free and Upload your profile</p>
-					</div>
-				</a>
-				<a class="scroll" href="#home">
-					<div class="col-md-3 w3_soulgrid">
-						<i class="fa fa-search" aria-hidden="true"></i>
-						<h3>Search</h3>
-						<p>Search for your right partner</p>
-					</div>
-				</a>
-				<a class="scroll" href="#home">
-					<div class="col-md-3 w3_soulgrid">
-						<i class="fa fa-users" aria-hidden="true"></i>
-						<h3>Connect</h3>
-						<p>Connect your perfect Match</p>
-					</div>
-				</a>
-				<a class="scroll" href="#home">
-					<div class="col-md-3 w3_soulgrid">
-						<i class="fa fa-comments-o" aria-hidden="true"></i>
-						<h3>Interact</h3>
-						<p>Become a member and start Conversation</p>
-					</div>
-				</a>
-				<div class="clearfix"> </div>
-			</div>
-	</div>
-	<!-- //Find your soulmate -->
-		
-		<!-- featured profiles -->			
-			<div class="w3layouts_featured-profiles">
-				<div class="container">
-				<!-- slider -->
-				<div class="agile_featured-profiles">
-					<h2>Featured Profiles</h2>
-							<ul id="flexiselDemo3">
-								<li>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p1.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p2.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="bride_profile.html">
-											<div class="profile-image">
-												<img src="images/p3.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p4.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="bride_profile.html">
-											<div class="profile-image">
-												<img src="images/p5.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="bride_profile.html">
-											<div class="profile-image">
-												<img src="images/p6.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p7.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="bride_profile.html">
-											<div class="profile-image">
-												<img src="images/p8.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-								</li>
-								<li>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p9.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p10.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p11.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="bride_profile.html">
-											<div class="profile-image">
-												<img src="images/p12.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p7.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="bride_profile.html">
-											<div class="profile-image">
-												<img src="images/p5.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p1.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-3 biseller-column">
-										<a href="groom_profile.html">
-											<div class="profile-image">
-												<img src="images/p2.jpg" class="img-responsive" alt="profile image">
-												<div class="agile-overlay">
-												<h4>Profile ID: 458645</h4>
-													<ul>
-														<li><span>Age / Height</span>: 26 / 5'0''</li>
-														<li><span>Caste</span>: Ipsum</li>
-														<li><span>Religion</span>: Lorem</li>
-														<li><span>Profession</span>: IT Software</li>
-														<li><span>Profile Created By</span>: Self</li>
-														<li><span>Location</span>: Semrd, 7th c, Los</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-								</li>
-							</ul>
-					</div>   
-			</div>
-			<!-- //slider -->				
-			</div>
-			<script type="text/javascript" src="js/jquery.flexisel.js"></script><!-- flexisel-js -->	
-					<script type="text/javascript">
-						 $(window).load(function() {
-							$("#flexiselDemo3").flexisel({
-								visibleItems:1,
-								animationSpeed: 1000,
-								autoPlay: false,
-								autoPlaySpeed: 5000,    		
-								pauseOnHover: true,
-								enableResponsiveBreakpoints: true,
-								responsiveBreakpoints: { 
-									portrait: { 
-										changePoint:480,
-										visibleItems:1
-									}, 
-									landscape: { 
-										changePoint:640,
-										visibleItems:1
-									},
-									tablet: { 
-										changePoint:768,
-										visibleItems:1
-									}
-								}
-							});
-							
-						});
-					   </script>
-			<!-- //featured profiles -->		   
-					   
-		<!-- mobile-app -->
-			<div class="wthree-mobilaapp main-grid-border">
-				<div class="container">
-					<div class="app">
-						<div class="col-md-6 w3ls_app-left mpl">
-							<h3>Matrimonial mobile app on your smartphone!</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-							<div class="agileits_app-devices">
-								<h5>Download the App</h5>
-								<a href="#"><img src="images/1.png" alt=""></a>
-								<a href="#"><img src="images/2.png" alt=""></a>
-								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<div class="col-md-offset-1 col-md-5 app-image">
-							<img src="images/mob.png" alt="">
+						
+						<!-- Second Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse"  data-target="#collapseTwo">
+									<span>&#8594;</span> Description of service and content policy
+								 </h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body">								
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing. </p>
+									<p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								</div>
+							</div>
 						</div>
-						<div class="clearfix"></div>
+						
+						<!-- Third Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThree">
+									<span>&#8594;</span> Do we use cookies?
+								 </h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Fourth Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFour">
+									<span>&#8594;</span> conduct
+								 </h4>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+									<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Fifth Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFive">
+									<span>&#8594;</span> Third party links
+								 </h4>
+							</div>
+							<div id="collapseFive" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Sixth Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
+									<span>&#8594;</span> Changes to our Privacy Policy
+								 </h4>
+							</div>
+							<div id="collapseSix" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing. </p>
+								</div>
+							</div>
+						</div>
+						<!-- Seventh Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSeven">
+									<span>&#8594;</span> no spam policy
+								 </h4>
+							</div>
+							<div id="collapseSeven" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Eight Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseEight">
+									<span>&#8594;</span> limitations of liability
+								 </h4>
+							</div>
+							<div id="collapseEight" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Ninth Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseNine">
+									<span>&#8594;</span> Terms and Conditions
+								 </h4>
+							</div>
+							<div id="collapseNine" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Tenth Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseTen">
+									<span>&#8594;</span> ability to accept terms of service 
+								 </h4>
+							</div>
+							<div id="collapseTen" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Eleventh Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseEleven">
+									<span>&#8594;</span> Lorem Ipsum
+								 </h4>
+							</div>
+							<div id="collapseEleven" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing. </p>
+								</div>
+							</div>
+						</div>
+						<!-- Twelve Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseTwelve">
+									<span>&#8594;</span> How do we protect your information?
+								 </h4>
+							</div>
+							<div id="collapseTwelve" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Thirteen Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThirteen">
+									<span>&#8594;</span> assignment
+								 </h4>
+							</div>
+							<div id="collapseThirteen" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Fourteen Panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFourteen">
+									<span>&#8594;</span> Contact Us
+								 </h4>
+							</div>
+							<div id="collapseFourteen" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+									<div class="more-address"> 
+										<div class="address-more">
+											<p>My company name,</p>
+											<p>Lorem ipsum dolor,</p>
+											<p>Jasmin Dr 40 Fe 72. </p>
+										</div>
+										<div class="address-right">
+											<p>Tel:1115550001</p>
+											<p>Fax:190-4509-494</p>
+											<p>E-Mail: <a href="mailto:info@example.com">mail@example.com</a></p>
+										</div>
+										<div class="clearfix"> </div>
+									  </div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /mobile-app -->
+		</section>
+		<!-- //Privacy-policy-section -->
 	
 	<!-- browse profiles -->
 	<div class="w3layouts-browse text-center">
@@ -978,35 +680,11 @@ $(document).ready(function(){
 		</div>
 	</div>
 	<!-- //browse profiles -->
-	
-	<!-- Assisted Service -->
-	<div class="agile-assisted-service text-center">
-		<h4>Assisted Service</h4>
-		<p>Our Relationship Managers have helped thousands of members find their life partners.</p>
-		<a href="assisted_services.html">Know More</a>
-	</div>
-	<!-- //Assisted Service -->
-	
-	<!-- Location -->
-	<div class="location w3layouts">
-		<div class="container">
-			<div class="col-md-6 col-sm-6 w3layouts location-grids location-grids-1">
-				<h3>Where We Are</h3>
-				<h5>Our Branches</h5>
-				<p>250+ branches across World, Largest Network of its Kind.</p>
-			</div>
-			<div class="col-md-6 col-sm-6 w3layouts location-grids location-grids-2">
-				<a href="contact.html"><img src="images/location.jpg" class="img-responsive" alt="Agileits W3layouts" /></a>
-			</div>
-			<div class="clearfix"></div>			
-		</div>
-	</div>
-	<!-- //Location -->
-	
+
 	<!-- Get started -->
 	<div class="w3layous-story text-center">
 		<div class="container">
-			<h4>Your story is waiting to happen!  <a class="scroll" href="#home">Get started</a></h4>
+			<h4>Your story is waiting to happen!  <a href="index.html">Get started</a></h4>
 		</div>
 	</div>
 	<!-- //Get started -->
@@ -1107,7 +785,6 @@ $(document).ready(function(){
 	});
 	</script>
 	<!-- //for smooth scrolling -->
-
 </body>
 <!-- //body -->
 </html>
